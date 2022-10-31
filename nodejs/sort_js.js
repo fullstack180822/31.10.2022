@@ -44,7 +44,7 @@ list1.forEach( x => console.log(`-- ${x} **`) )
 
 // create a list of numbers (minus and plus numbers )
 // sort the list by the numeric logic above)
-// print the items using forEach when the item is minus print M number , positive P number , for 0 Zerto
+// print the items using forEach when the item is minus print M number , positive P number , for 0 Zero
 // [-10,-20,0, 1, 3]
 // M -10
 // M -20
