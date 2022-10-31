@@ -52,4 +52,11 @@ list1.forEach( x => console.log(`-- ${x} **`) )
 // P 1
 // P 3
 
+// *Bonus:
+// list1 = [ { name: 'moshe', age: 33, weight: 70},
+//           { name: 'danny', age: 18, weight: 80},
+//           { name: 'rina', age: 20, weight: 60}]
+// sort this list 3 times + print:
+// by age, by weight, **etgar++: by name -- (hint: write 3 sort methods)
+
 
