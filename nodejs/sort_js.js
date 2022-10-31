@@ -48,7 +48,7 @@ list1.forEach( x => console.log(`-- ${x} **`) )
 // [-10,-20,0, 1, 3]
 // M -10
 // M -20
-// Zerto
+// Zero
 // P 1
 // P 3
 
