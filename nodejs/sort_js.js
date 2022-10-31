@@ -23,14 +23,14 @@ list1.sort( function (a, b) { return a - b; } )
 list1.sort( (a, b) => a - b  )
 
 
-list1.forEach( my_for_each )
+//list1.forEach( my_for_each )
 list1.forEach( x => console.log(`** ${x} **`) )
 
 for(let x of list1) {
     console.log(`** ${x} **`)
 }
 
-list1.forEach( my_for_each )
+//list1.forEach( my_for_each )
 
 console.log(list1);
 
@@ -58,5 +58,23 @@ list1.forEach( x => console.log(`-- ${x} **`) )
 //           { name: 'rina', age: 20, weight: 60}]
 // sort this list 3 times + print:
 // by age, by weight, **etgar++: by name -- (hint: write 3 sort methods)
+
+const list_person = [ { name: 'moshe', age: 33, weight: 70},
+                      { name: 'danny', age: 18, weight: 80},
+                      { name: 'rina', age: 20, weight: 60}]
+list_person.sort((a,b) => a.age - b.age);
+console.log(list_person)
+list_person.sort((a,b) => a.weight - b.weight);
+console.log(list_person)
+list_person.sort((a,b) => a.name.toLocaleLowerCase().localeCompare(b.name.toLocaleLowerCase()));
+console.log(list_person)
+list_person.sort((a,b) => 
+    a.name.toLocaleLowerCase() > b.name.toLocaleLowerCase() ? 1 :
+    a.name.toLocaleLowerCase() < b.name.toLocaleLowerCase() ? -1 : 0);
+console.log(list_person)
+
+
+
+
 
 
