@@ -22,11 +22,9 @@ function my_sort(a, b) {
 list1.sort( function (a, b) { return a - b; } )
 list1.sort( (a, b) => a - b  )
 
-function my_for_each( x ) { 
-    console.log(`** ${x} **`)
-}
+
 list1.forEach( my_for_each )
-list1.forEach( console.log )
+list1.forEach( x => console.log(`** ${x} **`) )
 
 for(let x of list1) {
     console.log(`** ${x} **`)
@@ -45,6 +43,8 @@ list1.forEach( x => console.log(`-- ${x} **`) )
 // create a list of numbers (minus and plus numbers )
 // sort the list by the numeric logic above)
 // print the items using forEach when the item is minus print M number , positive P number , for 0 Zero
+// *etgar print will be one line (hint: use ternary)
+// x = y > 0 ? 'positive' : 'negative'
 // [-10,-20,0, 1, 3]
 // M -10
 // M -20
