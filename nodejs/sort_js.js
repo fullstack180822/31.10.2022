@@ -36,10 +36,7 @@ list1.forEach( my_for_each )
 
 console.log(list1);
 
-list1.forEach( x => { 
-    console.log(`-- ${x} **`) 
-} 
-    )
+list1.forEach( x => console.log(`-- ${x} **`) )
 
 // 1, 10, 10 
 // 1, 10, 2, 10
