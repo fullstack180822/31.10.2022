@@ -12,3 +12,9 @@
 // the winner gets 1 point (tie is zero)
 
 // go until 5 points
+
+// while loop
+// random a card
+// show both cars
+// my score 
+// computer score
